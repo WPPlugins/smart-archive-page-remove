@@ -1,0 +1,43 @@
+#pp-smart-archive-page-remove-settings .form-table th, .form-table td {
+  display: block;
+  width: auto;
+}
+
+#pp-smart-archive-page-remove-settings .form-table th {
+  padding: 20px 10px 0 0;
+}
+
+#pp-smart-archive-page-remove-settings .form-table td {
+  padding: 6px 10px 0 0;
+}
+
+#pp-smart-archive-page-remove-settings input[type="checkbox"] {
+    display: none;
+}
+
+#pp-smart-archive-page-remove-settings input[type="checkbox"] + label.check {
+  display: inline-block;  
+  border: 2px solid #DDD;
+  box-shadow: 0px 0px 5px 0px rgba(42,42,42,.75); 
+  border-style:solid; 
+  border-radius:5px; 
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  font-family: dashicons;
+  font-size: 2em;
+  margin-right: 10px;
+}
+
+#pp-smart-archive-page-remove-settings input[type="checkbox"] + label.check:before {
+  content: "";  
+}
+
+#pp-smart-archive-page-remove-settings input[type="checkbox"]:checked + label.check:before {
+  content: "\f147";
+}
+
+#pp-smart-archive-page-remove-settings td p:last-child {
+  padding: 0 0 0 40px;
+}
